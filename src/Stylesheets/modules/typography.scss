@@ -1,0 +1,44 @@
+@import 'colors.scss';
+$alegreya: 'Alegreya Sans SC', sans-serif;
+$fjalla: 'Fjalla One', sans-serif;
+$mandali: 'Mandali', sans-serif;
+$robo: 'Roboto', sans-serif;
+$serif: 'Lora', serif;
+
+$name-font: $fjalla;
+$header-font: $fjalla;
+$thin-font: $robo;
+
+a {
+  color: $b_blue;
+  text-decoration: none;
+  transition: all 0.4s;
+  &:hover, &:focus {
+    color: $b_blue_hl;
+    text-decoration: none;
+  }
+}
+
+h1,h2,h3,h4 {
+  font-family: $robo;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 2.8em;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-left: 7px;
+}
+h2 {
+  font-family: $mandali;
+  letter-spacing: 2px;
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0 0 0 10px;
+  text-align: center;
+}
+h3 {
+  font-family: $mandali;
+  text-align:center;
+}

@@ -1,0 +1,8 @@
+section.module:last-child {
+  margin-bottom: 0; }
+
+section.module.parallax {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }

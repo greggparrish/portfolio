@@ -1,0 +1,158 @@
+.about {
+  text-align: center;
+  background-color: $medium-grey; 
+  padding: 15px;
+  .me-img, .me-txt {
+    padding: 0;
+    p {
+      padding: 0 5%;
+    }
+  }
+  img {
+    margin: 10px;
+    border: 15px solid $white;
+
+  }
+  h1 {
+
+  }
+  p {
+
+  }
+}
+#home {
+  position: relative;
+  .projects {
+    background: $white;
+    border: 1px solid $b_grey;
+    color: $b_blue;
+    font-family: $robo;
+    font-size: 2em;
+    font-weight: 100;
+    left: 50%;
+    letter-spacing: 4px;
+    margin-left: -109px;
+    margin-top: -33px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+  }
+  section {
+    padding: 80px 0;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: 50% 50%;
+    .container.client-group {
+      padding: 10px;
+      ul {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $alegreya;
+      }
+      .client-imgs {
+        padding: 0;
+        .col-xs-12 {
+          padding: 0;
+        }
+        .client-grid {
+          .col-xs-6 {
+            padding: 9px;
+          }
+          &.top {
+            margin: -1px 0 1px 0;
+          }
+        }
+        .client-feature {
+          padding: 8px;
+        }
+        .client-logo {
+          img {
+            //-webkit-filter: drop-shadow(5px 5px 5px $black);  
+            //filter: drop-shadow(5px 5px 5px $black);
+            max-height: 390px;
+            display: block;
+            margin: 0 auto;
+          }
+        }
+      }
+      p.elevator {
+        color: $royal_blue;
+        letter-spacing: 2px;
+        font-family: $robo;
+        margin-top: 10px;
+        font-size: .9em;  
+        margin-left: 10px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .stack {
+        text-transform: uppercase;
+        font-size: .8em;
+        color: $royal_blue;
+        padding: 20px 0;
+        letter-spacing: 2px;
+      }
+      p.description {
+        font-family: $mandali;
+        font-size: 1.5em; 
+        font-weight: 100;
+        letter-spacing: 1px;
+        line-height: 1.4em;
+      }
+      .sitelink {
+        text-align: center;
+        font-family: $robo;
+        a {
+          color: $dark-grey;
+          border: 1px solid $dark-grey;
+          padding: 10px;
+          font-size: .9em;
+          &:hover {
+            background: $black_60;
+            color: $lightest-grey;
+          }
+        }
+      }
+    }
+    &.dark {
+      color: $white;
+      .client-group {
+        p.elevator, .stack, h3 {
+          color: $light_grey;
+        }
+        .sitelink > a {
+          color: $white;
+          border: 1px solid $white;
+          &:hover {
+            background: $white_60;
+            color: $darkest-grey;
+          }
+        }
+      }
+    }
+    h1 {
+      text-shadow: 1px 1px 1px $black;
+    }
+    &#about {
+
+    }
+    .client-text {
+      font-family: $robo;
+      overflow: hidden;
+      margin: 5px 0;
+      padding: 0 30px 30px;
+      text-align: center;
+      p {
+        text-align: center;
+        font-size: .9em;
+      }
+      > .description {
+        font-size: 1.5em;
+      }
+      h3 {
+        margin-top: 5px;
+        color: $royal_blue;
+      }
+    }
+  }
+}

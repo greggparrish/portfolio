@@ -1,0 +1,9 @@
+.resp-outer {
+  padding: 0;
+  .resp-inner {
+    padding: 0;
+    @media (min-width: 768px) {
+      padding: 0 10px;
+    }
+  }
+}

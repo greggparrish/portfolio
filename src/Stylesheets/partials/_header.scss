@@ -1,0 +1,54 @@
+header {
+  width: 100%;
+  max-width: 1200px;
+  padding: 5px 5px 100px 5px;
+  margin: 0 auto;
+  line-height: 2.5em;
+  font-family: $robo;
+  font-weight: 100;
+  text-align: center;
+  border-bottom: 1px solid $b_grey;
+  a.logo img {
+    width: 170px;
+    padding: 10px 0 35px 0;
+    text-align: center;
+    margin-left: -11px;
+  }
+  .name {
+    font-size: 3em;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    a {
+      color: $b_blue;
+      &:hover {
+        color: $b_blue_hl;
+      }
+      &.last {
+        color: $b_green;
+        letter-spacing: 5px;
+        margin-left: -10px;
+        &:hover {
+          color: $b_green_hl;
+        }
+      }
+    }
+  }
+  span.webdev {
+    font-family: $alegreya;
+    color: $b_grey;
+    text-transform: uppercase;
+    font-size: 1em;
+    line-height: 1.3em;
+    display: block;
+    &.green {
+      color: $b_green_hl;
+    }
+  }
+  a.email {
+    text-decoration: none;
+  }
+}
+

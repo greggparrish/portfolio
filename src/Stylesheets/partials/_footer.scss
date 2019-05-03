@@ -1,0 +1,57 @@
+footer {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: $b_grey;
+  overflow: auto;
+  padding: 20px 0;
+  font-size: .95em;
+  font-family: $alegreya;
+  a {
+
+    &.github img {
+      width: 50px;
+      margin-top: 5px;
+    }
+  }
+}
+.back-to-top {
+  background: rgba(0,0,0, .8) url('/images/back-to-top.svg') no-repeat center 50%;
+  bottom: 40px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(#000, .05);
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  opacity: 0;
+  overflow: hidden; 
+  position: fixed;
+  right: 10px;
+  text-indent: 100%;
+  transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  visibility: hidden;
+  white-space: nowrap;
+  background-size: 30px;
+  &.back-is-visible, &.back-fade-out, .no-touch &:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s; 
+    -moz-transition: opacity .3s 0s, visibility 0s 0s; 
+    transition: opacity .3s 0s, visibility 0s 0s; 
+  }
+  &.back-is-visible { 
+    visibility: visible;
+    opacity: 1;
+  }
+  &.back-fade-out { 
+    opacity: .5; 
+  }
+  &:hover {
+    background-color: $black; 
+    opacity: 1;
+  }
+}
+

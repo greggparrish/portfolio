@@ -1,0 +1,29 @@
+@media all and(min-width: 600px) {
+	section.module {
+		h2 {
+		}
+		p {
+		}
+		&.parallax h1 {
+		}
+	}
+}
+@media all and(min-width: 960px) {
+	section.module.parallax h1 {
+	}
+}
+section.module {
+	&:last-child {
+		margin-bottom: 0;
+	}
+	h2 {
+	}
+	p {
+	}
+	&.parallax {
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+}

@@ -1,12 +1,22 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom'
+import Home from './Pages/Home'
+import Header from './Components/Header'
+import Footer from './Components/Footer'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
+    <Fragment>
+      <Header />
+      <Router>
+        <Route
+          path='/'
+          component={Home}
+        />
+      </Router>
+      <Footer />
+    </Fragment>
   );
 }
 
