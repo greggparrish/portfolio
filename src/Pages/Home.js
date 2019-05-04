@@ -13,7 +13,7 @@ class Home extends Component {
             index={i}
             key={i}
           />
-        ))} />
+        ))}
       </div>
     );
   }
