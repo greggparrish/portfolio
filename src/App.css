@@ -80,7 +80,7 @@ footer {
   font-family: "Alegreya Sans SC", sans-serif; }
   footer a.github img {
     width: 50px;
-    margin-top: 5px; }
+    margin-top: -15px; }
 
 .back-to-top {
   background: rgba(0, 0, 0, 0.8) url("/images/back-to-top.svg") no-repeat center 50%;
@@ -201,10 +201,12 @@ header {
         padding: 0; }
         #home section .container.client-group .client-imgs .col-xs-12 {
           padding: 0; }
-        #home section .container.client-group .client-imgs .client-grid .col-xs-6 {
-          padding: 9px; }
-        #home section .container.client-group .client-imgs .client-grid.top {
-          margin: -1px 0 1px 0; }
+        #home section .container.client-group .client-imgs .client-grid {
+          padding: 0; }
+          #home section .container.client-group .client-imgs .client-grid .col-sm {
+            padding: 9px; }
+          #home section .container.client-group .client-imgs .client-grid.top {
+            margin: -1px 0 1px 0; }
         #home section .container.client-group .client-imgs .client-feature {
           padding: 8px; }
         #home section .container.client-group .client-imgs .client-logo img {
@@ -234,7 +236,8 @@ header {
         line-height: 1.4em; }
       #home section .container.client-group .sitelink {
         text-align: center;
-        font-family: "Roboto", sans-serif; }
+        font-family: "Roboto", sans-serif;
+        margin-top: 20px; }
         #home section .container.client-group .sitelink a {
           color: #474747;
           border: 1px solid #474747;
@@ -244,7 +247,8 @@ header {
             background: rgba(0, 0, 0, 0.6);
             color: #fbfbfb; }
     #home section.dark {
-      color: #fff; }
+      color: #fff;
+      background-attachment: fixed; }
       #home section.dark .client-group p.elevator, #home section.dark .client-group .stack, #home section.dark .client-group h3 {
         color: #a8a8a8; }
       #home section.dark .client-group .sitelink > a {

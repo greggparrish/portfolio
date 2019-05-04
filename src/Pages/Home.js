@@ -7,8 +7,12 @@ class Home extends Component {
   render() {
     return (
       <div id='home'>
-        {Clients.client.map((client) => (
-          <ClientCard client={client} key={client.id}/>
+        {Clients.client.map((client, i) => (
+          <ClientCard
+            client={client}
+            index={i}
+            key={i}
+          />
         ))} />
       </div>
     );

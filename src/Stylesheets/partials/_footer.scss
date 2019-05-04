@@ -14,7 +14,7 @@ footer {
 
     &.github img {
       width: 50px;
-      margin-top: 5px;
+      margin-top: -15px;
     }
   }
 }
@@ -27,7 +27,7 @@ footer {
   height: 40px;
   width: 40px;
   opacity: 0;
-  overflow: hidden; 
+  overflow: hidden;
   position: fixed;
   right: 10px;
   text-indent: 100%;
@@ -38,19 +38,19 @@ footer {
   white-space: nowrap;
   background-size: 30px;
   &.back-is-visible, &.back-fade-out, .no-touch &:hover {
-    -webkit-transition: opacity .3s 0s, visibility 0s 0s; 
-    -moz-transition: opacity .3s 0s, visibility 0s 0s; 
-    transition: opacity .3s 0s, visibility 0s 0s; 
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
   }
-  &.back-is-visible { 
+  &.back-is-visible {
     visibility: visible;
     opacity: 1;
   }
-  &.back-fade-out { 
-    opacity: .5; 
+  &.back-fade-out {
+    opacity: .5;
   }
   &:hover {
-    background-color: $black; 
+    background-color: $black;
     opacity: 1;
   }
 }

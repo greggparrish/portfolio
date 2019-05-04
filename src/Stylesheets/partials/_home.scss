@@ -1,6 +1,6 @@
 .about {
   text-align: center;
-  background-color: $medium-grey; 
+  background-color: $medium-grey;
   padding: 15px;
   .me-img, .me-txt {
     padding: 0;
@@ -40,7 +40,7 @@
   section {
     padding: 80px 0;
     background-size: cover;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
     background-position: 50% 50%;
     .container.client-group {
       padding: 10px;
@@ -55,7 +55,8 @@
           padding: 0;
         }
         .client-grid {
-          .col-xs-6 {
+          padding: 0;
+          .col-sm {
             padding: 9px;
           }
           &.top {
@@ -67,7 +68,7 @@
         }
         .client-logo {
           img {
-            //-webkit-filter: drop-shadow(5px 5px 5px $black);  
+            //-webkit-filter: drop-shadow(5px 5px 5px $black);
             //filter: drop-shadow(5px 5px 5px $black);
             max-height: 390px;
             display: block;
@@ -80,7 +81,7 @@
         letter-spacing: 2px;
         font-family: $robo;
         margin-top: 10px;
-        font-size: .9em;  
+        font-size: .9em;
         margin-left: 10px;
         text-align: center;
         text-transform: uppercase;
@@ -94,7 +95,7 @@
       }
       p.description {
         font-family: $mandali;
-        font-size: 1.5em; 
+        font-size: 1.5em;
         font-weight: 100;
         letter-spacing: 1px;
         line-height: 1.4em;
@@ -102,6 +103,7 @@
       .sitelink {
         text-align: center;
         font-family: $robo;
+        margin-top: 20px;
         a {
           color: $dark-grey;
           border: 1px solid $dark-grey;
@@ -116,6 +118,7 @@
     }
     &.dark {
       color: $white;
+      background-attachment: fixed;
       .client-group {
         p.elevator, .stack, h3 {
           color: $light_grey;

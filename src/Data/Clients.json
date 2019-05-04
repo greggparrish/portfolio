@@ -4,41 +4,41 @@
       "id": "0",
       "name": "Coadria",
       "slug": "coadria",
-      "url": ["coadria","https://coadria.com/"],
-      "features": "Machine Learning, API, Payment Gateway, AWS Storage, AWS Lambda Services, full stack development, load balancing, geolocation, dynamic charts and graphs",
+      "url": ["coadria", "https://coadria.com/"],
+      "features": ["Machine Learning", "API", "Payment Gateway", "AWS Storage", "AWS Lambda Services", "full stack development", "load balancing", "geolocation", "dynamic charts and graphs"],
       "elevator": "Turn-key co-shoring based in Rijeka, Croatia",
       "description": "Senior Developer: Located in Rijeka, Croatia, Coadria is an International Development Center for a range of leading US companies delivering exceptional software solutions using cutting-edge technologies. From BI and BigData to .NET, Java and Mobile App development, we work as an integrated part of our US partner teams.  We offer a turn-key Co-Shore solution that includes dedicated work space, office management, recruitment and hiring, high-speed infrastructure and a great office culture.",
-      "stack": "HTML5, CSS3, js/jQuery, PostgreSQL, Python, Ruby, Flask, Django, Rails, d3, scss, NGINX, Phusion, Debian, CentOS"
+      "stack": ["HTML5", "CSS3", "js/jQuery", "PostgreSQL", "Python", "Ruby", "Flask", "Django", "Rails", "d3", "scss", "NGINX", "Phusion", "Debian", "CentOS"]
     },
     {
       "id": "2",
       "name": "General Services Administration",
       "slug": "gsa",
-      "url": [ "dev", "http://travel.greggparrish.com" ],
-      "features": "Google maps, responsive graphs, massive data set, geolocation, comparison of nearby airports, auto-generated summaries, current airfares via Kayak, BASH and Python scripts for data entry and maintenance",
+      "url": ["dev", "http://travel.greggparrish.com" ],
+      "features": ["Google maps", "responsive graphs", "massive data set", "geolocation", "comparison of nearby airports", "auto-generated summaries", "current airfares via Kayak", "BASH and Python scripts for data entry and maintenance"],
       "elevator": "Data Analytics // US Government contest winner",
       "description": "This app was the winning entry in a contest sponsored by the GSA to create a tool to track & reduce travel spending by government workers. It incorporates open source data to compare government vs consumer prices paid on flights and hotels, evaluates current government flight agreements with some airlines (which often charged above market rates), and offers several options for cheaper flights and accommodation.",
-      "stack": "scss, Django, MySQL, NGINX, Gunicorn, JQuery, Debian, d3, Bootstrap"
+      "stack": ["scss", "Django", "MySQL", "NGINX", "Gunicorn", "JQuery", "Debian", "d3", "Bootstrap"]
     },
     {
       "id": "3",
       "name": "Rock and Roll Forever Foundation",
       "slug": "rock-and-roll-forever-foundation",
-      "url": [ "prod", "http://www.rockandrollforever.org" ],
-      "features": "social media, RSS, Donations/Subscriptions via PayPal, MailChimp, video",
+      "url": ["prod", "http://www.rockandrollforever.org" ],
+      "features": ["social media", "RSS", "Donations/Subscriptions via PayPal", "MailChimp", "video"],
       "elevator": "Educational non-profit",
       "description": "The Rock and Roll Forever Foundation is a 501(c)(3) established by Steven Van Zandt. TeachRock is the Foundation’s national middle and high school curriculum initiative. Created to address the challenges of an environment in which schools face cuts to arts funding, TeachRock includes interdisciplinary, arts-driven materials designed to keep students engaged and in school. Their groundbreaking curriculum is available at no cost to educators.",
-      "stack": "scss, Django, PostgreSQL, NGINX, Gunicorn, JQuery, Debian"
+      "stack":["scss", "Django", "PostgreSQL", "NGINX", "Gunicorn", "JQuery", "Debian"]
     },
     {
       "id": "4",
       "name": "Rock and Roll: An American Story",
       "slug": "teachrock",
-      "url": [ "prod", "http://teachrock.org" ],
-      "features": "HTML5 / Flash video, auto-generate related content, aws storage, cloudfront CDN, BASH video editing scripts, MailChimp, user accounts, rss, mail server, audio normalization",
+      "url": ["prod", "http://teachrock.org" ],
+      "features": ["HTML5 / Flash video", "auto-generate related content", "aws storage", "cloudfront CDN", "BASH video editing scripts", "MailChimp", "user accounts", "rss", "mail server", "audio normalization"],
       "elevator": "Media-rich educational project by Steven Van Zandt",
       "description": "TeachRock is an online educational resource presented by Steven Van Zandt's Rock and Roll Forever Foundation and offered free-of-charge to educators and individuals everywhere. Launched in Fall 2013, the website offers new lesson plans and teaching resources on a monthly basis. Educators are encouraged to create user accounts, which allows them to receive notifications when new content is made available.",
-      "stack": "scss, Django, video.js, PostgreSQL, NGINX, Gunicorn, JQuery, Debian, dovecot, postfix"
+      "stack": ["scss", "Django", "video.js", "PostgreSQL", "NGINX", "Gunicorn", "JQuery", "Debian", "dovecot", "postfix"]
     }
   ]
 }
