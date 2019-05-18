@@ -66,6 +66,13 @@ img {
       .resp-outer .resp-inner {
         padding: 0 10px; } }
 
+.client-grid {
+  display: none; }
+
+@media all and (min-width: 576px) {
+  .client-grid {
+    display: block; } }
+
 footer {
   margin: 0 auto;
   width: 100%;

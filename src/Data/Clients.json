@@ -5,7 +5,7 @@
       "name": "Davo Technologies",
       "slug": "davo",
       "url": ["PRODUCTION", "https://davotechnologies.com/"],
-      "features": ["React Admin Site", "React Merchant Portal", "POS API integration", "AWS", "Forte ACH", "Twilio", "Postmark", "Flask API", "DRF API", "Hubspot"],
+      "features": ["React admin site", "React merchant portal", "POS API integration", "AWS", "Forte ACH", "Twilio", "Postmark", "Flask API", "DRF API", "Hubspot", "Responsive charts"],
       "elevator": "Automated sales tax services",
       "description": "DAVO is an automated tax processing and payment service that calculates a merchant's local and federal sales tax based on POS API data, impounds the required payment funds from their bank account and files their tax return. For DAVO, I have refactored and maintained the existing codebase in Django, built a merchant portal and admin web app in React powered by APIs in Flask and Django, and coded an automated system of EC2s to collect and aggregate all merchant sales data for later processing.",
       "stack":  ["HTML5", "CSS3", "React", "MariaDB", "Python", "Flask", "Django", "scss", "uwsgi", "CentOS", "Materialize"]
@@ -14,7 +14,7 @@
       "id": "2",
       "name": "General Services Administration",
       "slug": "gsa",
-      "features": ["Google maps", "responsive graphs", "massive data set", "geolocation", "comparison of nearby airports", "auto-generated summaries", "current airfares via Kayak", "BASH and Python scripts for data entry and maintenance"],
+      "features": ["Google maps", "responsive graphs", "massive data set", "geolocation", "comparison of nearby airports", "auto-generated summaries", "current airfares via Kayak", "data processing scripts"],
       "elevator": "Data Analytics // US Government contest winner",
       "description": "This app was the winning entry in a contest sponsored by the GSA to create a tool to track & reduce travel spending by government workers. It incorporates open source data to compare government vs consumer prices paid on flights and hotels, evaluates current government flight agreements with some airlines (which often charged above market rates), and offers several options for cheaper flights and accommodation.",
       "stack": ["scss", "Django", "MySQL", "NGINX", "Gunicorn", "JQuery", "Debian", "d3", "Bootstrap"]
@@ -34,7 +34,7 @@
       "name": "Rock and Roll: An American Story",
       "slug": "teachrock",
       "url": ["PRODUCTION", "http://teachrock.org" ],
-      "features": ["HTML5 / Flash video", "auto-generate related content", "aws storage", "cloudfront CDN", "BASH video editing scripts", "MailChimp", "user accounts", "rss", "mail server", "audio normalization"],
+      "features": ["HTML5 / Flash video", "auto-generate related content", "aws storage", "cloudfront CDN", "Python cli video editing", "MailChimp", "user accounts", "rss", "mail server", "audio normalization"],
       "elevator": "Media-rich educational project by Steven Van Zandt",
       "description": "TeachRock is an online educational resource presented by Steven Van Zandt's Rock and Roll Forever Foundation and offered free-of-charge to educators and individuals everywhere. Launched in Fall 2013, the website offers new lesson plans and teaching resources on a monthly basis. Educators are encouraged to create user accounts, which allows them to receive notifications when new content is made available.",
       "stack": ["scss", "Django", "video.js", "PostgreSQL", "NGINX", "Gunicorn", "JQuery", "Debian", "dovecot", "postfix"]
